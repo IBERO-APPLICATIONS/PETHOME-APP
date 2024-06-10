@@ -11,11 +11,10 @@ import Swal from "sweetalert2";
 
 export const VetView = ({photoUrl, name, description}) => {
 
-  const nombreVet = "Juan Carlos Barragan";
   const onHireVet = () => {
 
     Swal.fire({
-      title: `¿Deseas contratar a ${nombreVet}?`,
+      title: `¿Deseas contratar a ${name}?`,
       text:  "¡Puedes cancelar la acción!",    
       icon: "warning",
       showCancelButton: true,
