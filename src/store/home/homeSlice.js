@@ -4,7 +4,7 @@ export const homeSlice = createSlice({
     name: 'home',
     initialState: {
         page: "vet",
-        sideBar: true
+        sideBar: false
     },
     reducers: {
         changePage: ( state , { payload } ) => {   
