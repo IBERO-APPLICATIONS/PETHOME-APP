@@ -5,7 +5,7 @@ export const vetSlice = createSlice({
     name: 'vet',
     initialState: {
         name: "admin",
-        age: "",
+        photoUrl: "",
     },
     reducers: {
         loadVet: ( state , action ) => {   
