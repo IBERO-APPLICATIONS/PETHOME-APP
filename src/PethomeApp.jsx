@@ -1,10 +1,10 @@
-import { LoginPage } from "./app/pages/LoginPage";
-
+import { AppRouter } from "./router/AppRouter";
+import { AppTheme } from "./theme/AppTheme";
 
 export const PethomeApp = () => {
   return (    
-    <>
-      <LoginPage />
-    </>
+    <AppTheme>
+      <AppRouter />
+    </AppTheme>
   )
 }
